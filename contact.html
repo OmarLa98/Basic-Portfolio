@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Contacto</title>
 </head>
     <body>
-        <div>
-        <h1>Marlon Omar López Aguilar</h1>
-        <a href="index.html">Acerca de mi</a>
-        <a href="portfolio.html">Portafolio</a>
-        <a href="contact.html">Contacto</a>
-        <div>
+        <div class = "encabezado">
+            <h1>Marlon Omar López Aguilar</h1>
+            <div class = "links">
+            <a class = "paginas" href="index.html">Acerca de mi</a>
+            <a class = "paginas" href="portfolio.html">Portafolio</a>
+            <a class = "paginas" href="contact.html">Contacto</a>
+            </div>
+        </div>
+        <div class ="contenido">
             <br>
             <h2>Contacto</h2>
             <br>
             <label for="name">Nombre</label>
             <br>
-            <input type="text">
+            <input type="name">
             <br>
             <label for="email">Email</label>
             <br>
-            <input type="text">
+            <input type="email">
             <br>
-            <input type="submit">
+            <label for="text">Mensaje</label>
+            <br>
+            <input id = "mensaje" type="text">
+            <br>
+            <input class = "boton" type="submit">
         </div>
         <div>
             <footer>Copyright</footer>
